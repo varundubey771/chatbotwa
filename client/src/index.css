@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  margin:0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Toolbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #262626;
+  height: 56px;
+  z-index: 1;
+}
+
+.Toolbar-Navigation{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 0.5rem 0 0rem;
+}
+
+.Toolbar-Logo{
+  margin-left: 1rem;
+}
+
+.Toolbar-Logo a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.Spacer{
+  flex: 1;
+}
+
+.Toolbar-Navigation-Items ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.Toolbar-Navigation-Items li{
+  padding: 0 0.5rem;
+}
+.Toolbar-Navigation-Items a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Toolbar-Navigation-Items {
+  color: #ffffff;
+}
+.Toolbar-Navigation-Items a:hover,
+.Toolbar-Navigation-Items a:active{
+  color: #fa9237;
+}
+
+.MuiTabs-flexContainer{
+  margin-top:56px;
+}
